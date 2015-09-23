@@ -7,8 +7,13 @@ get '/yaho-' do
   "test!"
 end
 
-get '/' do
-    data = HyakuninIssyu.new(1)
-    data.poem.kanji
+get '/poem/:id' do
+    "this page shows poem detail of poem-#{params[:id]}"
 end
+
+get '/' do
+  "Hello World"
+end
+
+
 
