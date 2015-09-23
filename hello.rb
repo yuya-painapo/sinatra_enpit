@@ -1,9 +1,6 @@
 require 'sinatra'
 require 'HyakuninIssyu'
 
-#get '/' do
-#  "Hello World!"
-#end
 
 get '/yaho-' do
   "Hello World!"
